@@ -1,0 +1,149 @@
+body {
+    max-width: 100%;
+    background-color: #262626;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.25em;
+}
+
+h4 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.125em;
+}
+
+.wrapper {
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1em;
+    max-width: 90%;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav {
+    width: 100%;
+    background-color: navy;
+    /* border: 2px solid red; */
+}
+
+nav img.inline-block {
+    width: 11%;
+    float: left;
+    margin-right: 16em;
+    background-color: #262626;
+}
+
+nav ul li.inline-block {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+nav ul li {
+    padding: 0.5em;
+    row-gap: 2em;
+    /* background-color: turquoise; */
+    font-weight: bold;
+    border: 3px solid transparent;
+    color: whitesmoke;
+}
+
+nav li:hover {
+    border: 3px solid whitesmoke;
+    background-color: green;
+}
+
+.info-box {
+    background-color: navy;
+    padding: .75em;
+    color: whitesmoke;
+}
+
+.profilePic {
+    max-width: 90%;
+    float: left;
+    margin-bottom: .5em;
+}
+
+button {
+    padding: .5em;
+    width: 90%;
+    align-self: stretch;
+    color: whitesmoke;
+    background-color: green;
+    border: 3px solid whitesmoke;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+
+button:hover {
+    color: black;
+    border: 3px solid rgb(1, 192, 1);
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.studyColumn {
+    display: grid;
+    margin-left: 2em;
+    grid-auto-rows: minmax(100px auto);
+    grid-row-gap: .5em;
+}
+
+.caseStudy {
+    /* border: 2px solid red; */
+    max-width: 3fr;
+    grid-template-rows: minmax(200px 1.5fr);
+    background-color: green;
+}
+
+img {
+    max-inline-size: 50%;
+    display: inline-block;
+    float:right;
+    vertical-align:middle;
+}
+
+.studyBlurb {
+    float: left;
+    max-width: 40%;
+    max-height: 100%;
+    padding: .5em;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+footer {
+    max-width: 100%;
+    background-color: black;
+}
+
+#linkedin {
+    margin-top: 5px;
+    margin-left: 20%;
+    max-height: 80px;
+    vertical-align: middle;
+}
+
+.copyright {
+    margin-left: 33%;
+    text-align: center;
+    color: grey;
+}
