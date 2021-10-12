@@ -218,20 +218,31 @@ footer {
         ;
     }
 
-    img {
-        max-inline-size: 50%;
-        display: inline-block;
+    .studyContainer {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+   .studyPic {
+        margin-top: .5em;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: .0m;
+        max-width: 90%;
         /* float:right; */
-        vertical-align:middle;
+        vertical-align: middle;
+        order: 1;
+        align-self: center;
     }
     
     .studyBlurb {
-        float: left;
-        max-width: 40%;
+        max-width: 90%;
         max-height: fit-content;
         padding: .5em;
         font-weight: normal;
         color: whitesmoke;
+        order: 2;
     }
 
     #linkedin {
@@ -239,5 +250,12 @@ footer {
         margin-left: 20%;
         max-height: 80px;
         vertical-align: middle;
+    }
+
+    .copyright {
+        margin-left: 5%;
+        max-width: 90%;
+        text-align: center;
+        color: grey;
     }
 }
