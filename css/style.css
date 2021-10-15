@@ -65,6 +65,9 @@ header{
     border: 3px solid transparent;
     color: whitesmoke;
 }
+.top-nav a.active {
+border-bottom: 2px solid white;
+}
 
 .top-nav li a:hover {
     border: 3px solid whitesmoke;
