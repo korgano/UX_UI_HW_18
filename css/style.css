@@ -43,6 +43,8 @@ header{
     display: flex;
     align-items: center;
     background-color: navy;
+    position: sticky;
+    top: 0;
 }
 .logo{
     height: 48px;
