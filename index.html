@@ -12,7 +12,7 @@
     <body>
     <header>
     <nav class="inline-block">
-        <img src="./images/xsdw-logo.png" alt="XS Design Works logo" class="inline-block">
+        <img src="./images/xsdw-logo.png" alt="XS Design Works logo" class="inline-block" id="logo">
         <ul>
             <li class="inline-block">Home</li>
             <li class="inline-block">Case Studies</li>
@@ -68,13 +68,16 @@
                 </li>
             </ul>
         </div>
-        <button>Resume</button>
-    </section>
+        <button id="add">Resume</button>
+        <div class="pp"> 
+            <div class="progress-bar"></div>
+        </div>
+    </section><!-- onclick="reveal()"-->
     <!--- Main info block --->
 
 <section class="studyColumn" id="content">
     <!--- Top Case Study --->
-    <section class="caseStudy" id="study1">
+    <section class="caseStudy" id="modalButton study1">
         <!---<a href=""> for future use--->
         <div class="studyContainer">
             <div><img src="./images/smartmockups_riverside.jpg" class="studyPic" alt="Riverside Art Center"></div>
@@ -86,6 +89,7 @@
                     Responsive Web Redesign and Reservation System Development for a Small Non-Profit.
                 </p>
                 <p>Primary platforms: Desktop and Android Mobile.</p>
+                <button class="open">Read More</button>
             </div>
         </div>
        <!--- </a> --->
@@ -105,6 +109,7 @@
                     Responsive Web Redesign for a State Government Agency
                 </p>
                 <p>Primary platforms: Desktop, iPad, and iPhone X.</p>
+                <button class="open">Read More</button>
             </div>
         </div>
         <!--- </a> --->
@@ -141,5 +146,19 @@
             <p>Copyright Xavier Santana, 2021 - 2022</p>
         </div>
     </footer>
+
+<!-- Modal -->
+<div class="popup-overlay">
+    <div class="popup-content">
+        <h2>Confirm Your Choice</h2>
+        <p>You sure you want to leave this page? </p>
+        <button class="proceed">Proceed</button>
+        <!--popup's close button-->
+        <button class="close">Close</button>  
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="javascript/scripts.js"></script>
 </body>
 </html>
