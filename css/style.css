@@ -1,7 +1,7 @@
 body {
-    max-width: 100%;
     background-color: #262626;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -34,35 +34,32 @@ h4 {
     grid-template-areas: 
     'topBox content';
 }
-
-#topBox {
-    grid-area: topBox;
-}
-
 .inline-block {
     display: inline-block;
     vertical-align: top;
 }
 
-nav {
-    width: 100%;
+header{
+    display: flex;
+    align-items: center;
     background-color: navy;
-    /* border: 2px solid red; */
+    position: sticky;
+    top: 0;
 }
-
-nav img.inline-block {
-    width: 11%;
-    float: left;
-    margin-right: 16em;
-    background-color: #262626;
+.logo{
+    height: 48px;
+    margin-left: 5%;;
 }
-
-nav ul li.inline-block {
+.top-nav ul  {
+    margin: 0;
+}
+.top-nav ul li {
     display: inline-block;
     padding: 0.5em;
 }
 
-nav ul li {
+.top-nav ul li a {
+    text-decoration: none;
     padding: 0.5em;
     row-gap: 2em;
     /* background-color: turquoise; */
@@ -70,10 +67,17 @@ nav ul li {
     border: 3px solid transparent;
     color: whitesmoke;
 }
+.top-nav a.active {
+border-bottom: 2px solid white;
+}
 
-nav li:hover {
+.top-nav li a:hover {
     border: 3px solid whitesmoke;
     background-color: green;
+}
+
+#topBox {
+    grid-area: topBox;
 }
 
 .info-box {
