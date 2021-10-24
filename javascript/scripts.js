@@ -4,10 +4,10 @@ console.log("Javascript has loaded.")
 //Swap logos when going to mobile
 function SwapLogo(x) {
     if (x.matches) { // If media query matches
-        document.getElementById('logo').src="./images/xsdw-logo-mobile.png";
+        document.getElementsByClassName('logo').src="./images/xsdw-logo-mobile.png";
         console.log("Now on mobile screen.")
     } else {
-        document.getElementById('logo').src="./images/xsdw-logo.png";
+        document.getElementsByClassName('logo').src="./images/xsdw-logo.png";
         console.log("On larger screen.")
     }
   }

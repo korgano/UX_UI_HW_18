@@ -49,6 +49,7 @@ header{
 .logo{
     height: 48px;
     margin-left: 5%;;
+    background-color: #262626;
 }
 .top-nav ul  {
     margin: 0;
@@ -229,7 +230,7 @@ footer {
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
-    nav img.inline-block {
+    .logo {
         width: 20%;
         height: fit-content;
         float: left;
@@ -250,6 +251,10 @@ footer {
         grid-template-areas: 
         'topBox'
         'content';
+    }
+
+    .info-box {
+        width: 85vw;
     }
 
     .profilePic {
