@@ -1,0 +1,500 @@
+<!DOCTYPE html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverside Art Center Case Study</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="./images/xsdw-logo.png" alt="XS Design Works logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Case Studies</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Articles</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+          </div>
+        </div>
+    </nav>
+    <!--end Navbar-->
+
+    <!--Hero Image-->
+    <div class="jumbotron jumbotron-fluid" id="RACheader">
+        <div class="container" id="caseStudyBlurb">
+          <h1 class="display-4">Riverside Art Center</h1>
+          <p class="lead">Responsive Web Redesign and Reservation System Development for a Small Non-Profit.</p>
+        </div>
+    </div>
+    <!--end Hero Image-->
+
+    <!--breadcrumb-->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Case Studies</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Riverside Art Center</li>
+        </ol>
+    </nav>
+    <!--end breadcrumb-->
+
+    <section class="mainContent mx-auto">
+    <!--Info on Project-->
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Company:</h5>
+              <p class="card-text">Riverside Art Center</p>
+              <p class="card-text">3 W. Auglaize St.</p>
+              <p class="card-text">P.O. Box 37</p>
+              <p class="card-text">Wapakoneta, OH 45895</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Project Type & Deliverables:</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">User Research</li>
+                <li class="list-group-item">UX Design</li>
+                <li class="list-group-item">UI Design</li>
+                <li class="list-group-item">UI Style Guide</li>
+                <li class="list-group-item">UI Prototype (Figma)</li>
+                <li class="list-group-item">Google Slides Presentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Project Details</h5>
+              <p class="card-text">Roles:</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Team Manager</li>
+                <li class="list-group-item">User Researcher</li>
+                <li class="list-group-item">UI Designer</li>
+                <li class="list-group-item">UI Prototyper (Figma)</li>
+              </ul>
+              <p class="card-text">Duration: 3 weeks</p>
+              <p class="card-text">Scope:</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Homepage</li>
+                <li class="list-group-item">Reservation System</li>
+                <li class="list-group-item">Events Page</li>
+                <li class="list-group-item">Mobile + Desktop Prototypes</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--end Info on Project-->
+
+    <!--Intro-->
+    <div class="card infoOnly">
+        <div class="card-body">
+          <h1 class="card-title">The Problem</h5>
+          <p class="card-text">Riverside Art Center aims to host local art events and connect local artists with the community. We observed that users have a difficult time navigating the booking process on the event page and understanding the benefits of membership. This is causing users to not attend events, artists not being seen, and the loss of donations.</p>
+          <p class="card-text">One problem we found was there was no way to actually make a reservation or book an event on the website. It would simply add the event to your Google calendar. </p>
+          <p class="card-text">Aesthetically, there seemed to a number of issues, like the odd placement of the arrow above donations on desktop, that might be due to errors in responsive web design configuration.</p>
+        </div>
+      </div>
+    <!--End Intro-->
+
+    <!--Secondary Nav-->
+    <nav class="nav nav-pills flex-column flex-sm-row" id="Nav2">
+        <a class="flex-sm-fill text-sm-center nav-link active" href="#research">1. Research</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#definition">2. Definition</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#ideation">3. Ideation</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#prototyping">4. Prototyping</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#conclusion">5. Conclusion</a>
+      </nav>
+    <!--end Secondary Nav-->
+
+    <!--Research Section-->
+    <div class="accordion" id="research">
+        <div class="card infoOnly">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Research
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#research">
+            <div class="card-body">
+                <p class="card-text">Researching the town of Wapakoneta, Ohio revealed that it was the hometown of Neil Armstrong, explaining some of the visual motifs of the existing site. We e-mailed the Riverside Art Center, hoping to get an interview, but we received no response.</p>
+                <ul class="list-group list-group-flush">
+                    4 interviews were conducted with people who engage with non-profit art organizations. We learned that:
+                    <li class="list-group-item">Most people go to the sites to search for events.</li>
+                    <li class="list-group-item">Users' pain points were finding locations for the events, details about the event, and if the event was family friendly. </li>
+                    <li class="list-group-item">Users like booking and finding information through social media, and socials are rarely up to date. </li>
+                    <li class="list-group-item">Users like to know what they are going to be doing at the event and if it will be messy. </li>
+                  </ul>
+                <p class="card-text">We also conducted a paid Google Survey targeting United States residents, obtaining 15 responses.</p>
+                <ul class="list-group list-group-flush">
+                    <b>Key Takeaways:</b>
+                    <li class="list-group-item">Social media and websites are vital to learning about art non-profits.</li>
+                    <li class="list-group-item">Donation buttons might be seen as “pushy” if they’re omnipresent.</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--end Research Section-->
+
+<!--Competitor Analysis Pics-->
+<div class="row row-cols-md-4">
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="./images/CaseStudy-RAC/Homepage-RichArtCen.jpg" class="card-img-top" alt="Richmond Art Center Site Analysis" data-toggle="modal" 
+        data-target="#RichArtCen">
+        <div class="card-body">
+          <p class="card-text">We conducted 4 competitor analysis, focusing on other art non-profits. The Richmond Art Center website provided a lot of influences, namely the combined logo and primary navigation bar, and the three item nav cards. It also made good use of screen real estate, especially in comparison with the existing RAC site.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="./images/CaseStudy-RAC/WitA Group.jpg" class="card-img-top" alt="Women in the Arts Site Analysis" data-toggle="modal" 
+        data-target="#WITA">
+        <div class="card-body">
+          <p class="card-text">The Women in the Arts site’s header communicated the organization’s tagline and organization type immediately to the user. It also features a rotating set of images with information about the organization, current and upcoming events, and exhibitions. These features were brought into the final design.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="./images/CaseStudy-RAC/riverartsdistrict-homepage.jpg" class="card-img-top" alt="River Art District Site Analysis" data-toggle="modal" 
+        data-target="#RAD">
+        <div class="card-body">
+          <p class="card-text">In the River Arts District competitor analysis, we noticed the ability to filter artists by medium, and the upcoming events persisting across pages, which showed the priorities of the site. The footer from this page inspired our footer, and the navigation bar also, with the current tab being underlined.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="./images/CaseStudy-RAC/columbus-cultural-arts.jpg" class="card-img-top" alt="Columbus Cultral Arts Center Site Analysis" data-toggle="modal" 
+        data-target="#ColCulArts">
+        <div class="card-body">
+          <p class="card-text">We also did analysis of the Cultural Arts Center in Ohio. It featured a navigation bar that shrinks when scrolling, and a drop down menu. The primary elements we took from this site was the subscribe option in the footer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--end Competitor Analysis Pics-->
+
+<!--Definition Section-->
+<div id="definition">
+    <div class="card infoOnly">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+            Definition
+        </h2>
+    </div>
+    <div class="row row-cols-md-2">
+        <div class="col mb-4">
+            <div class="card h-100">
+              <img src="./images/CaseStudy-RAC/user-persona.jpg" class="card-img-top" alt="User Persona: Henry Dali">
+              <div class="card-body">
+                <p class="card-text">Our user persona is of Henry Dali, a lifelong resident of Waponkeneta, Ohio. Based on our research of the organization, we chose to make an older persona to match their user demographics. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="./images/CaseStudy-RAC/empathy-map2.jpg" class="card-img-top" alt="Empathy Map of Henry Dali">
+              <div class="card-body">
+                <p class="card-text">He says "I want to know when and where events are", he thinks "family focused events will feel safe," he does not feel obligated to donate if the organization doesn't do a good job of explaining what they do and what the money is used for, and he does like to donate to good artists.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+<!--end Definition Section-->
+
+<!--Ideation Section-->
+<div id="ideation">
+    <div class="card infoOnly">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+            Ideation
+        </h2>
+    </div>
+    <div class="card-body">
+        <p class="card-text">Now that we had an idea of what the user wants, we could start the process of determining what the business needs.</p>
+        <p class="card-text">Naturally, this process was made more difficult by not having direct contact with our stakeholders.</p>
+        <p class="card-text">We instead had to examine the site and their social media pages to determine their priorities and where they would intersect with the users'. Based on that analysis, we determined that events and classes would be the main priority for both our stakeholders and the users.</p>
+    </div>
+    <div class="row row-cols-md-1">
+        <div class="col mb-4">
+            <div class="card">
+              <img src="./images/CaseStudy-RAC/value-proposition.png" class="card-img-top" alt="Value Proposition for RAC Site Resdesign">
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="card-body">
+        <p class="card-text">We used a value proposition to ensure the website was designed around customer values and customer needs. We wanted to make sure our users know what they were getting when they come to the site, by making it easier to navigate and making the site more readable. </p>
+    </div>
+    <div class="row row-cols-md-2">
+        <div class="col mb-4">
+            <div class="card h-100">
+              <img src="./images/CaseStudy-RAC/user-scenario.png" class="card-img-top" alt="User Scenario for Henry Dali">
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="./images/CaseStudy-RAC/RAC-user-flow.jpg" class="card-img-top" alt="Henry Dali's user flow">
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="card-body">
+        <p class="card-text">The user flow, reflecting our storyboard, is Henry Dali booking a reservation for his family at the Riverside Art Center.</p>
+        <p class="card-text">The flow was designed to be a streamlined way to book a reservation from the website. There was no way to make reservations on the existing site, so we created this from scratch.</p>
+        <p class="card-text">Based on our research, the Riverside Art Center's current method of determining how many people are planning on attending an event or class consists of going to Facebook and clicking "I'm interested in this event."</p>
+        <p class="card-text">By creating this reservation system, we not only allow users who don't use Facebook to sign up for events, we allow RAC to have a better idea of how many people will attend each event, and allow them to collect any payments required beforehand.</p>
+    </div>
+</div>
+<!--end Ideation Section-->
+
+<!--Prototyping Section-->
+<div id="prototyping">
+    <div class="card infoOnly">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+            Prototyping
+        </h2>
+    </div>
+    <div class="card-body">
+        <img src="./images/CaseStudy-RAC/rac-sitemap.jpg" class="card-img-top" alt="Riverside Art Center Redesign Sitemap">
+        <p class="card-text">We iterated the site map several times, before settling on this information architecture. Given how little content there is, what would normally be secondary pages on a site map are instead sections of the primary page, with what look like tertiary pages being our secondary pages.</p>
+        <p class="card-text">During the process, we realized that the original site’s About page content was nearly identical to content on the home page. That led us to ultimately merge the visual elements into the home page, and the text into the Join Us page.</p>
+        <p class="card-text">We didn't deviate too far from the original site map, because navigation was one of its strong suites. The main issues were in layout and functionality.</p>
+    </div>
+    <div class="accordion" id="prototypes">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Design System
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#prototypes">
+            <div class="row row-cols-md-2">
+                <div class="col mb-4 col-md-12">
+                    <div class="card">
+                      <img src="./images/CaseStudy-RAC/user-persona.jpg" class="card-img-top" alt="User Persona: Henry Dali">
+                      <div class="card-body">
+                        <p class="card-text">Our user persona is of Henry Dali, a lifelong resident of Waponkeneta, Ohio. Based on our research of the organization, we chose to make an older persona to match their user demographics. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="./images/CaseStudy-RAC/empathy-map2.jpg" class="card-img-top" alt="Empathy Map of Henry Dali">
+                      <div class="card-body">
+                        <p class="card-text">He says "I want to know when and where events are", he thinks "family focused events will feel safe," he does not feel obligated to donate if the organization doesn't do a good job of explaining what they do and what the money is used for, and he does like to donate to good artists.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-4">
+                    <div class="card h-100">
+                      <img src="./images/CaseStudy-RAC/empathy-map2.jpg" class="card-img-top" alt="Empathy Map of Henry Dali">
+                      <div class="card-body">
+                        <p class="card-text">He says "I want to know when and where events are", he thinks "family focused events will feel safe," he does not feel obligated to donate if the organization doesn't do a good job of explaining what they do and what the money is used for, and he does like to donate to good artists.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item #2
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#prototypes">
+            <div class="card-body">
+              Some placeholder content for the second accordion panel. This panel is hidden by default.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Collapsible Group Item #3
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#prototypes">
+            <div class="card-body">
+              And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+            </div>
+          </div>
+        </div>
+      </div>
+<!--end Prototyping Section-->
+
+</section>
+
+<!--Image Modals-->
+
+<div class="modal fade mx-auto" id="RichArtCen" tabindex="-1" role="dialog" aria-labelledby="RichArtCenLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- w-100 class so that header div covers 100% width of parent div -->
+          <h5 class="modal-title w-100" id="RichArtCenLabel">
+           Richmond Art Center Analysis
+             </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+             ×
+           </span>
+          </button>
+        </div>
+
+        <!--Modal body with image-->
+        <div class="modal-body mx-auto">
+          <img src="./images/CaseStudy-RAC/Homepage-RichArtCen.jpg" alt="Richmond Art Center Site Analysis" />
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">
+           Close
+         </button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="modal fade mx-auto" id="WITA" tabindex="-1" role="dialog" aria-labelledby="WITALabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- w-100 class so that header div covers 100% width of parent div -->
+          <h5 class="modal-title w-100" id="WITALabel">
+           Women in the Arts Analysis
+             </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+             ×
+           </span>
+          </button>
+        </div>
+
+        <!--Modal body with image-->
+        <div class="modal-body mx-auto">
+          <img src="./images/CaseStudy-RAC/WitA Group.jpg" alt="Richmond Art Center Site Analysis" />
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">
+           Close
+         </button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="modal fade mx-auto" id="RAD" tabindex="-1" role="dialog" aria-labelledby="RADLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- w-100 class so that header div covers 100% width of parent div -->
+          <h5 class="modal-title w-100" id="RADLabel">
+           River Arts District Analysis
+             </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+             ×
+           </span>
+          </button>
+        </div>
+
+        <!--Modal body with image-->
+        <div class="modal-body mx-auto">
+          <img src="./images/CaseStudy-RAC/riverartsdistrict-homepage.jpg" alt="River Arts District Site Analysis" />
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">
+           Close
+         </button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="modal fade mx-auto" id="ColCulArts" tabindex="-1" role="dialog" aria-labelledby="ColCulArtsLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- w-100 class so that header div covers 100% width of parent div -->
+          <h5 class="modal-title w-100" id="ColCulArtsLabel">
+           Columbus Cultural Arts Center Analysis
+             </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+             ×
+           </span>
+          </button>
+        </div>
+
+        <!--Modal body with image-->
+        <div class="modal-body mx-auto">
+          <img src="./images/CaseStudy-RAC/columbus-cultural-arts.jpg" alt="River Arts District Site Analysis" />
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">
+           Close
+         </button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!--end Image Modals -->
+
+<!--Footer-->
+<footer>
+    <div class="socialIcon inline-block">
+        <a href="">
+            <img src="./images/linkedin-icon.png" alt="LinkedIn Icon" id="linkedin">
+        </a>
+    </div>
+    <div class="copyright inline-block">
+        <p>Copyright Xavier Santana, 2021 - 2022</p>
+    </div>
+</footer>
+<!--end Footer-->
+</body>
+</html>

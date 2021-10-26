@@ -226,7 +226,88 @@ footer {
     border: 2px solid gray;
 }
 
-/*HW19 Addition*/
+/*end HW19 Addition*/
+
+/*HW20 Additions*/
+.nav-link {
+    color: whitesmoke !important;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid white;
+}
+
+.bg-light {
+    background-color: navy !important;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: mintcream !important;
+}
+
+h5.card-title {
+    font-family: 'Anton', sans-serif !important;
+    letter-spacing: 1px;
+    font-size: 1.125em;
+}
+
+.jumbotron.jumbotron-fluid#caseStudy {
+    background-image: url(../images/case-study-by-Jo-Szczepanska2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+.jumbotron.jumbotron-fluid#RACheader {
+    background-image: url(../images/CaseStudy-RAC/heroimage_rac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    height: 50vh;
+    margin-bottom: 1rem !important;
+}
+
+.breadcrumb {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+#caseStudyBlurb {
+    background-color: rgb(70,130,180,0.6);
+    text-align: center;
+}
+
+.card.mb-3#riverside,#idor {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    color: whitesmoke;
+}
+
+#nav2 {
+    background-color: #1A24D9;
+    margin-bottom: 1rem;
+    position: sticky;
+}
+
+.infoOnly {
+    margin-bottom: 1rem;
+}
+
+.mainContent {max-width: 90vw;}
+
+.card-img-top {
+    max-width: 100%;
+}
+
+.modal-dialog {
+    max-width: 80vw;
+}
+/*end HW20 Additions*/
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
@@ -317,4 +398,13 @@ footer {
         text-align: center;
         color: grey;
     }
+
+    .jumbotron.jumbotron-fluid#caseStudy {
+        max-height: 50vh;
+    }
+
+    .jumbotron.jumbotron-fluid#RACheader {
+        height: 40vh;
+    }
+    
 }
