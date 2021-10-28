@@ -229,12 +229,17 @@ footer {
 /*end HW19 Addition*/
 
 /*HW20 Additions*/
+
+a:hover {
+    color: #CCB784;
+}
+
 .nav-link {
     color: whitesmoke !important;
 }
 
 .nav-link.active {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #FFECBF;
 }
 
 .bg-light {
@@ -273,6 +278,15 @@ h5.card-title {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
+    background-color: green;
+}
+
+.breadcrumb-item.active {
+    color: whitesmoke;
+}
+
+.list-group-item{
+    background-color: #ecf0ff;
 }
 
 #caseStudyBlurb {
@@ -286,6 +300,18 @@ h5.card-title {
     margin-right: auto;
     background-color: green;
     color: whitesmoke;
+}
+
+.card-header {
+    background-color: #034001;
+}
+
+.card-body {
+    background-color: #ecf0ff !important;
+}
+
+h2.mb-0 {
+    color:whitesmoke
 }
 
 #nav2 {
@@ -305,6 +331,12 @@ h5.card-title {
 
 .modal-dialog {
     max-width: 80vw;
+}
+
+.row {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
 }
 
 /*image hover box*/
@@ -328,19 +360,20 @@ h5.card-title {
 }
 
 .screen img {
-    bottom: -600px;
+    bottom: -225px;
     width: 100%;
     height: auto;
     position: absolute;
     z-index: 0;
     margin:0;
     padding:0;
-    -webkit-transition: top 11s;
-    -moz-transition: top 11s;
-    -ms-transition: top 11s;
-    -o-transition: top 11s;
+    -webkit-transition: bottom 11s;
+    -moz-transition: bottom 11s;
+    -ms-transition: bottom 11s;
+    -o-transition: bottom 11s;
     transition: bottom 11s;
 }
+
 .screen:hover img {
     bottom: 0;
     -webkit-transition: all 11s;
@@ -356,7 +389,7 @@ h5.card-title {
 /* Media Queries */
 @media only screen and (max-width: 600px) {
     .logo {
-        width: 20%;
+        width: 25%;
         height: fit-content;
         float: left;
         margin-right: 2em;
@@ -451,4 +484,7 @@ h5.card-title {
         height: 40vh;
     }
     
+    button.navbar-toggler {
+        width: 25% !important;
+    }
 }
