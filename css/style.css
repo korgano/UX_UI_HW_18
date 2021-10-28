@@ -234,6 +234,10 @@ a:hover {
     color: #CCB784;
 }
 
+.card-body.blurb {
+    background-color: green !important;
+}
+
 .nav-link {
     color: whitesmoke !important;
 }
@@ -337,6 +341,14 @@ h2.mb-0 {
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 10px;
+}
+
+.carousel-inner {
+    margin-left: -25%;
+}
+
+a.carousel-control-prev, a.carousel-control-next {
+    background-color: #859BCC;
 }
 
 /*image hover box*/
