@@ -65,3 +65,4 @@ function reveal(){
     //console.log("Progress bar automatically left.")
 
 }
+

@@ -291,7 +291,6 @@ h5.card-title {
 #nav2 {
     background-color: #1A24D9;
     margin-bottom: 1rem;
-    position: sticky;
 }
 
 .infoOnly {
@@ -307,6 +306,51 @@ h5.card-title {
 .modal-dialog {
     max-width: 80vw;
 }
+
+/*image hover box*/
+.content {
+    position: relative;
+}
+
+.content .card-body {
+    width: 90vw !important;
+}
+
+.screen {
+    display: block;
+    width: 80vw;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #b3b3b3;
+    border-radius: 1px;
+    margin: 0 auto;
+}
+
+.screen img {
+    bottom: -600px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    margin:0;
+    padding:0;
+    -webkit-transition: top 11s;
+    -moz-transition: top 11s;
+    -ms-transition: top 11s;
+    -o-transition: top 11s;
+    transition: bottom 11s;
+}
+.screen:hover img {
+    bottom: 0;
+    -webkit-transition: all 11s;
+    -moz-transition: all 11s;
+    -ms-transition: all 11s;
+    -o-transition: all 11s;
+    transition: all 11s;
+}
+/*image hover box*/
+
 /*end HW20 Additions*/
 
 /* Media Queries */
