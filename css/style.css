@@ -315,7 +315,7 @@ h5.card-title {
 }
 
 .card-header.secondary {
-    background-color: #ebebeb;
+    background-color: #ebebeb !important;
 }
 
 .card-body {
