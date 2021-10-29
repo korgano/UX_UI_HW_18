@@ -314,6 +314,10 @@ h5.card-title {
     background-color: #034001;
 }
 
+.card-header.secondary {
+    background-color: #ebebeb;
+}
+
 .card-body {
     background-color: #ecf0ff !important;
 }
