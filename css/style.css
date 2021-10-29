@@ -234,6 +234,10 @@ a:hover {
     color: #CCB784;
 }
 
+.row.no-gutters.blurb {
+    padding: 5px;
+}
+
 .card-body.blurb {
     background-color: green !important;
 }
